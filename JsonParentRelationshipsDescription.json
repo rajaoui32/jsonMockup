@@ -1,0 +1,29 @@
+[{
+	"n": "Account",
+	"rf": "MasterRecordId",
+	"rl": "Master Record ID"
+}, {
+	"n": "Account",
+	"rf": "ParentId",
+	"rl": "Parent Account ID"
+}, {
+	"n": "User",
+	"rf": "OwnerId",
+	"rl": "Owner ID"
+}, {
+	"n": "User",
+	"rf": "CreatedById",
+	"rl": "Created By ID"
+}, {
+	"n": "User",
+	"rf": "LastModifiedById",
+	"rl": "Last Modified By ID"
+}, {
+	"n": "DandBCompany",
+	"rf": "DandbCompanyId",
+	"rl": "D&B Company ID"
+}, {
+	"n": "OperatingHours",
+	"rf": "OperatingHoursId",
+	"rl": "Operating Hour ID"
+}]
