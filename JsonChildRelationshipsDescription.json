@@ -1,0 +1,497 @@
+[{
+	"n": "AIInsightValue",
+	"rf": "SobjectLookupValueId",
+	"rl": ""
+}, {
+	"n": "AIRecordInsight",
+	"rf": "TargetId",
+	"rl": ""
+}, {
+	"n": "Account",
+	"rf": "ParentId",
+	"rl": "ChildAccounts"
+}, {
+	"n": "AccountBrand",
+	"rf": "AccountId",
+	"rl": "AccountBrands"
+}, {
+	"n": "AccountChangeEvent",
+	"rf": "ParentId",
+	"rl": ""
+}, {
+	"n": "AccountCleanInfo",
+	"rf": "AccountId",
+	"rl": "AccountCleanInfos"
+}, {
+	"n": "AccountContactRelation",
+	"rf": "AccountId",
+	"rl": "AccountContactRelations"
+}, {
+	"n": "AccountContactRole",
+	"rf": "AccountId",
+	"rl": "AccountContactRoles"
+}, {
+	"n": "AccountContactRoleChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "AccountFeed",
+	"rf": "ParentId",
+	"rl": "Feeds"
+}, {
+	"n": "AccountHistory",
+	"rf": "AccountId",
+	"rl": "Histories"
+}, {
+	"n": "AccountPartner",
+	"rf": "AccountFromId",
+	"rl": "AccountPartnersFrom"
+}, {
+	"n": "AccountPartner",
+	"rf": "AccountToId",
+	"rl": "AccountPartnersTo"
+}, {
+	"n": "AccountShare",
+	"rf": "AccountId",
+	"rl": "Shares"
+}, {
+	"n": "ActivityHistory",
+	"rf": "AccountId",
+	"rl": "ActivityHistories"
+}, {
+	"n": "AlternativePaymentMethod",
+	"rf": "AccountId",
+	"rl": "AlternativePaymentMethods"
+}, {
+	"n": "Asset",
+	"rf": "AccountId",
+	"rl": "Assets"
+}, {
+	"n": "Asset",
+	"rf": "AssetProvidedById",
+	"rl": "ProvidedAssets"
+}, {
+	"n": "Asset",
+	"rf": "AssetServicedById",
+	"rl": "ServicedAssets"
+}, {
+	"n": "AssetChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "AssetChangeEvent",
+	"rf": "AssetProvidedById",
+	"rl": ""
+}, {
+	"n": "AssetChangeEvent",
+	"rf": "AssetServicedById",
+	"rl": ""
+}, {
+	"n": "AssociatedLocation",
+	"rf": "ParentRecordId",
+	"rl": "AssociatedLocations"
+}, {
+	"n": "AttachedContentDocument",
+	"rf": "LinkedEntityId",
+	"rl": "AttachedContentDocuments"
+}, {
+	"n": "Attachment",
+	"rf": "ParentId",
+	"rl": "Attachments"
+}, {
+	"n": "AuthorizationFormConsent",
+	"rf": "ConsentGiverId",
+	"rl": "AuthorizationFormConsents"
+}, {
+	"n": "AuthorizationFormConsent",
+	"rf": "RelatedRecordId",
+	"rl": "RelatedAuthorizationFormConsents"
+}, {
+	"n": "AuthorizationFormConsentChangeEvent",
+	"rf": "ConsentGiverId",
+	"rl": ""
+}, {
+	"n": "AuthorizationFormConsentChangeEvent",
+	"rf": "RelatedRecordId",
+	"rl": ""
+}, {
+	"n": "CampaignMember",
+	"rf": "LeadOrContactId",
+	"rl": ""
+}, {
+	"n": "CardPaymentMethod",
+	"rf": "AccountId",
+	"rl": "CardPaymentMethods"
+}, {
+	"n": "Case",
+	"rf": "AccountId",
+	"rl": "Cases"
+}, {
+	"n": "CaseChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "ChannelProgramMember",
+	"rf": "PartnerId",
+	"rl": "ChannelProgramMembers"
+}, {
+	"n": "CollaborationGroupRecord",
+	"rf": "RecordId",
+	"rl": "RecordAssociatedGroups"
+}, {
+	"n": "CombinedAttachment",
+	"rf": "ParentId",
+	"rl": "CombinedAttachments"
+}, {
+	"n": "CommSubscriptionConsent",
+	"rf": "ConsentGiverId",
+	"rl": "CommSubscriptionConsents"
+}, {
+	"n": "CommSubscriptionConsentChangeEvent",
+	"rf": "ConsentGiverId",
+	"rl": ""
+}, {
+	"n": "Contact",
+	"rf": "AccountId",
+	"rl": "Contacts"
+}, {
+	"n": "ContactChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "ContactPointAddress",
+	"rf": "ParentId",
+	"rl": "ContactPointAddresses"
+}, {
+	"n": "ContactPointAddressChangeEvent",
+	"rf": "ParentId",
+	"rl": ""
+}, {
+	"n": "ContactPointEmail",
+	"rf": "ParentId",
+	"rl": "ContactPointEmails"
+}, {
+	"n": "ContactPointEmailChangeEvent",
+	"rf": "ParentId",
+	"rl": ""
+}, {
+	"n": "ContactPointPhone",
+	"rf": "ParentId",
+	"rl": "ContactPointPhones"
+}, {
+	"n": "ContactPointPhoneChangeEvent",
+	"rf": "ParentId",
+	"rl": ""
+}, {
+	"n": "ContactRequest",
+	"rf": "WhatId",
+	"rl": "ContactRequests"
+}, {
+	"n": "ContentDistribution",
+	"rf": "RelatedRecordId",
+	"rl": ""
+}, {
+	"n": "ContentDocumentLink",
+	"rf": "LinkedEntityId",
+	"rl": "ContentDocumentLinks"
+}, {
+	"n": "ContentVersion",
+	"rf": "FirstPublishLocationId",
+	"rl": ""
+}, {
+	"n": "Contract",
+	"rf": "AccountId",
+	"rl": "Contracts"
+}, {
+	"n": "ContractChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "CreditMemo",
+	"rf": "BillingAccountId",
+	"rl": "CreditMemos"
+}, {
+	"n": "DelegatedAccount",
+	"rf": "ParentId",
+	"rl": "DelegatedAccounts"
+}, {
+	"n": "DelegatedAccount",
+	"rf": "TargetId",
+	"rl": "ManagedAccount"
+}, {
+	"n": "DigitalWallet",
+	"rf": "AccountId",
+	"rl": "DigitalWallets"
+}, {
+	"n": "DuplicateRecordItem",
+	"rf": "RecordId",
+	"rl": "DuplicateRecordItems"
+}, {
+	"n": "EmailMessage",
+	"rf": "RelatedToId",
+	"rl": "Emails"
+}, {
+	"n": "EmailMessageChangeEvent",
+	"rf": "RelatedToId",
+	"rl": ""
+}, {
+	"n": "EntitySubscription",
+	"rf": "ParentId",
+	"rl": "FeedSubscriptionsForEntity"
+}, {
+	"n": "Event",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "Event",
+	"rf": "WhatId",
+	"rl": "Events"
+}, {
+	"n": "EventChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "EventChangeEvent",
+	"rf": "WhatId",
+	"rl": ""
+}, {
+	"n": "EventRelationChangeEvent",
+	"rf": "RelationId",
+	"rl": ""
+}, {
+	"n": "FeedComment",
+	"rf": "ParentId",
+	"rl": ""
+}, {
+	"n": "FeedItem",
+	"rf": "ParentId",
+	"rl": ""
+}, {
+	"n": "FinanceBalanceSnapshot",
+	"rf": "AccountId",
+	"rl": "FinanceBalanceSnapshots"
+}, {
+	"n": "FinanceBalanceSnapshotChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "FinanceTransaction",
+	"rf": "AccountId",
+	"rl": "FinanceTransactions"
+}, {
+	"n": "FinanceTransactionChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "FlowExecutionErrorEvent",
+	"rf": "ContextRecordId",
+	"rl": ""
+}, {
+	"n": "FlowRecordRelation",
+	"rf": "RelatedRecordId",
+	"rl": ""
+}, {
+	"n": "Invoice",
+	"rf": "BillingAccountId",
+	"rl": "Invoices"
+}, {
+	"n": "Lead",
+	"rf": "ConvertedAccountId",
+	"rl": ""
+}, {
+	"n": "LeadChangeEvent",
+	"rf": "ConvertedAccountId",
+	"rl": ""
+}, {
+	"n": "MessagingSession",
+	"rf": "EndUserAccountId",
+	"rl": ""
+}, {
+	"n": "NetworkActivityAudit",
+	"rf": "ParentEntityId",
+	"rl": "ParentEntities"
+}, {
+	"n": "NetworkFeedResponseMetric",
+	"rf": "ParentRecordId",
+	"rl": ""
+}, {
+	"n": "NetworkSelfRegistration",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "Note",
+	"rf": "ParentId",
+	"rl": "Notes"
+}, {
+	"n": "NoteAndAttachment",
+	"rf": "ParentId",
+	"rl": "NotesAndAttachments"
+}, {
+	"n": "OpenActivity",
+	"rf": "AccountId",
+	"rl": "OpenActivities"
+}, {
+	"n": "Opportunity",
+	"rf": "AccountId",
+	"rl": "Opportunities"
+}, {
+	"n": "OpportunityChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "OpportunityPartner",
+	"rf": "AccountToId",
+	"rl": "OpportunityPartnersTo"
+}, {
+	"n": "Order",
+	"rf": "AccountId",
+	"rl": "Orders"
+}, {
+	"n": "OrderChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "OutgoingEmail",
+	"rf": "RelatedToId",
+	"rl": ""
+}, {
+	"n": "Partner",
+	"rf": "AccountFromId",
+	"rl": "PartnersFrom"
+}, {
+	"n": "Partner",
+	"rf": "AccountToId",
+	"rl": "PartnersTo"
+}, {
+	"n": "PartnerFundAllocation",
+	"rf": "ChannelPartnerId",
+	"rl": "PartnerFundAllocations"
+}, {
+	"n": "PartnerFundClaim",
+	"rf": "ChannelPartnerId",
+	"rl": "PartnerFundClaims"
+}, {
+	"n": "PartnerFundRequest",
+	"rf": "ChannelPartnerId",
+	"rl": "PartnerFundRequests"
+}, {
+	"n": "PartnerMarketingBudget",
+	"rf": "ChannelPartnerId",
+	"rl": "PartnerMarketingBudgets"
+}, {
+	"n": "Payment",
+	"rf": "AccountId",
+	"rl": "Payments"
+}, {
+	"n": "PaymentAuthAdjustment",
+	"rf": "AccountId",
+	"rl": "PaymentAuthAdjustments"
+}, {
+	"n": "PaymentAuthorization",
+	"rf": "AccountId",
+	"rl": "PaymentAuthorizations"
+}, {
+	"n": "PaymentLineInvoice",
+	"rf": "AssociatedAccountId",
+	"rl": "PaymentLinesInvoice"
+}, {
+	"n": "PaymentMethod",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "ProcessInstance",
+	"rf": "TargetObjectId",
+	"rl": "ProcessInstances"
+}, {
+	"n": "ProcessInstanceHistory",
+	"rf": "TargetObjectId",
+	"rl": "ProcessSteps"
+}, {
+	"n": "Quote",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "RecordAction",
+	"rf": "RecordId",
+	"rl": "RecordActions"
+}, {
+	"n": "RecordActionHistory",
+	"rf": "ParentRecordId",
+	"rl": "RecordActionHistories"
+}, {
+	"n": "Refund",
+	"rf": "AccountId",
+	"rl": "Refunds"
+}, {
+	"n": "RefundLinePayment",
+	"rf": "AssociatedAccountId",
+	"rl": "RefundLinePayments"
+}, {
+	"n": "ResourcePreference",
+	"rf": "RelatedRecordId",
+	"rl": "ResourcePreferences"
+}, {
+	"n": "ReturnOrder",
+	"rf": "AccountId",
+	"rl": "ReturnOrders"
+}, {
+	"n": "ReturnOrderChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "ServiceAppointment",
+	"rf": "AccountId",
+	"rl": "ServiceAppointmentAccount"
+}, {
+	"n": "ServiceAppointment",
+	"rf": "ParentRecordId",
+	"rl": "ServiceAppointments"
+}, {
+	"n": "ServiceAppointmentChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "ServiceAppointmentChangeEvent",
+	"rf": "ParentRecordId",
+	"rl": ""
+}, {
+	"n": "ServiceResource",
+	"rf": "AccountId",
+	"rl": "ServiceResources"
+}, {
+	"n": "ServiceResourceChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "Task",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "Task",
+	"rf": "WhatId",
+	"rl": "Tasks"
+}, {
+	"n": "TaskChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "TaskChangeEvent",
+	"rf": "WhatId",
+	"rl": ""
+}, {
+	"n": "TopicAssignment",
+	"rf": "EntityId",
+	"rl": "TopicAssignments"
+}, {
+	"n": "User",
+	"rf": "AccountId",
+	"rl": "Users"
+}, {
+	"n": "UserChangeEvent",
+	"rf": "AccountId",
+	"rl": ""
+}, {
+	"n": "UserRole",
+	"rf": "PortalAccountId",
+	"rl": ""
+}]
